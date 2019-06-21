@@ -28,7 +28,8 @@ github_username:  jekyll
 markdown: kramdown
 theme: jekyll-theme-minimal
 plugins:
-  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
