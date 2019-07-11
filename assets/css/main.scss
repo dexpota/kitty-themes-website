@@ -1,0 +1,25 @@
+---
+---
+
+header {
+	background-image: url({{ "/assets/images/pattern.png" | prepend: site.baseurl }})
+	//background-color: white;
+}
+
+.list-inline {
+	list-style-type: none;
+
+	li {
+		display: inline;
+		margin: 1em;
+	}
+}
+
+.center {
+	text-align: center;
+}
+
+body {
+	margin: 0;
+	background: #fffcf9ff;
+}
