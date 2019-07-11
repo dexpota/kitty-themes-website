@@ -1,9 +1,28 @@
 ---
 ---
 
+.content {
+	padding-top: 3em;
+}
+
+#kitty {
+	display: block;
+	margin: 0 auto -29px auto;
+	z-index: 1000;
+	position: relative;
+}
+
+.container {
+	background-color: #fffcf9;
+}
+
 header {
-	background-image: url({{ "/assets/images/pattern.png" | prepend: site.baseurl }})
-	//background-color: white;
+	background-color: white;
+	padding-top: 1em;
+}
+
+.github-fork-ribbon:before {
+	background-color: #6d6d6d;
 }
 
 .list-inline {
@@ -21,5 +40,16 @@ header {
 
 body {
 	margin: 0;
-	background: #fffcf9ff;
+	//background: #fffcf9;
+	font-family: 'IBM Plex Mono', monospace;
+	//background-color: #e6ccb3;
+	background-color: #fffcf9;
+}
+
+h1 {
+	color: #817f75;
+}
+
+p {
+	color: #d1cfcc;
 }
